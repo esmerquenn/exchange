@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="all">
+        <h2>Exchange</h2>
+        <div class="card">
+          <label for="">From: </label>
+          <span>
+            <select name="" id="kur">
+              <option value="1" title="U.S America">USD</option>
+            </select>
+            <input type="number" id="inp" value="1" />
+          </span>
+        </div>
+        <div class="card">
+          <label for="">To: </label>
+          <span>
+            <select onchange="acceptM()" name="" id="kur2">
+              <option value="1" title="U.S Amerika">USD</option>
+            </select>
+            <input type="number" id="inp2" />
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

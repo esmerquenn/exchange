@@ -9,7 +9,7 @@ let optionsArray = [];
 let wantMoney = 1;
 let haveMoney = 1;
 let ajax = new XMLHttpRequest();
-ajax.open("Get", "http://www.floatrates.com/daily/usd.xml", true);
+ajax.open("Get", "https://www.floatrates.com/daily/usd.xml", true);
 ajax.send();
 ajax.onload = function () {
   if (ajax.readyState == 4 && ajax.status == 200) {
